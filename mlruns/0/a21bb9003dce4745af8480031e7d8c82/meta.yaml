@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a21bb9003dce4745af8480031e7d8c82/artifacts
+end_time: 1706932258869
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a21bb9003dce4745af8480031e7d8c82
+run_name: loud-stag-283
+run_uuid: a21bb9003dce4745af8480031e7d8c82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706932218579
+status: 3
+tags: []
+user_id: korin
