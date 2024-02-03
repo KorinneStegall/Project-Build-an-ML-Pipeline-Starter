@@ -1,0 +1,8 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7fa7be58cf10>> (for post_run_cell), with arguments args (<ExecutionResult object at 7fa7be58cf40, execution_count=4 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7fa7be58cbe0, raw_cell="import os
+import wandb
+import pandas as pd
+# Note .." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell://wsl%2Bubuntu/home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/eda.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7fa7be58cf10>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7fa7be5e80d0, raw_cell="import os
+import wandb
+import pandas as pd
+os.env.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell://wsl%2Bubuntu/home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/eda.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D>,),kwargs {}:

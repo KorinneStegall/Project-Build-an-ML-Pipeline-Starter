@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3c7d15afce8d4d08b990fcfa0e5db584/artifacts
+end_time: 1706929646345
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c7d15afce8d4d08b990fcfa0e5db584
+run_name: puzzled-skunk-276
+run_uuid: 3c7d15afce8d4d08b990fcfa0e5db584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706929613467
+status: 3
+tags: []
+user_id: korin

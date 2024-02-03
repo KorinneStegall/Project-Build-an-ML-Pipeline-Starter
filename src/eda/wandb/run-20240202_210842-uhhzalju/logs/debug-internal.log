@@ -1,0 +1,301 @@
+2024-02-02 21:08:42,520 INFO    StreamThr :1415 [internal.py:wandb_internal():87] W&B internal server running at pid: 1415, started at: 2024-02-02 21:08:42.517711
+2024-02-02 21:08:42,530 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status
+2024-02-02 21:08:42,568 INFO    WriterThread:1415 [datastore.py:open_for_write():85] open: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/run-uhhzalju.wandb
+2024-02-02 21:08:42,572 DEBUG   SenderThread:1415 [sender.py:send():334] send: header
+2024-02-02 21:08:42,765 DEBUG   SenderThread:1415 [sender.py:send():334] send: run
+2024-02-02 21:08:43,240 INFO    SenderThread:1415 [dir_watcher.py:__init__():216] watching files in: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files
+2024-02-02 21:08:43,241 INFO    SenderThread:1415 [sender.py:_start_run_threads():1065] run started: uhhzalju with start time 1706929722.555088
+2024-02-02 21:08:43,242 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: summary_record
+2024-02-02 21:08:43,243 INFO    SenderThread:1415 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-02 21:08:43,244 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: check_version
+2024-02-02 21:08:43,246 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: check_version
+2024-02-02 21:08:43,453 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: run_start
+2024-02-02 21:08:43,667 DEBUG   HandlerThread:1415 [system_info.py:__init__():31] System info init
+2024-02-02 21:08:43,667 DEBUG   HandlerThread:1415 [system_info.py:__init__():46] System info init done
+2024-02-02 21:08:43,667 INFO    HandlerThread:1415 [system_monitor.py:start():151] Starting system monitor
+2024-02-02 21:08:43,668 INFO    SystemMonitor:1415 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-02-02 21:08:43,669 INFO    HandlerThread:1415 [system_monitor.py:probe():172] Collecting system info
+2024-02-02 21:08:43,672 INFO    SystemMonitor:1415 [interfaces.py:start():168] Started cpu
+2024-02-02 21:08:43,681 INFO    SystemMonitor:1415 [interfaces.py:start():168] Started disk
+2024-02-02 21:08:43,686 INFO    SystemMonitor:1415 [interfaces.py:start():168] Started gpu
+2024-02-02 21:08:43,690 INFO    SystemMonitor:1415 [interfaces.py:start():168] Started memory
+2024-02-02 21:08:43,695 INFO    SystemMonitor:1415 [interfaces.py:start():168] Started network
+2024-02-02 21:08:43,739 DEBUG   HandlerThread:1415 [system_info.py:probe():195] Probing system
+2024-02-02 21:08:43,918 DEBUG   HandlerThread:1415 [system_info.py:_probe_git():180] Probing git
+2024-02-02 21:08:43,958 DEBUG   HandlerThread:1415 [system_info.py:_probe_git():188] Probing git done
+2024-02-02 21:08:43,960 DEBUG   HandlerThread:1415 [system_info.py:probe():241] Probing system done
+2024-02-02 21:08:43,960 DEBUG   HandlerThread:1415 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2024-02-03T03:08:43.740600', 'startedAt': '2024-02-03T03:08:42.484192', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/KorinneStegall/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'root': '/home/korin/Project-Build-an-ML-Pipeline-Starter', 'host': 'Korinne-G15', 'username': 'korin', 'executable': '/home/korin/miniconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2208.0080000000007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}, {'current': 2208.008, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 18.585464477539062}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 7.646793365478516}}
+2024-02-02 21:08:43,961 INFO    HandlerThread:1415 [system_monitor.py:probe():182] Finished collecting system info
+2024-02-02 21:08:43,961 INFO    HandlerThread:1415 [system_monitor.py:probe():185] Publishing system info
+2024-02-02 21:08:43,961 DEBUG   HandlerThread:1415 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-02 21:08:43,964 DEBUG   HandlerThread:1415 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-02 21:08:43,964 DEBUG   HandlerThread:1415 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-02-02 21:08:44,246 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/requirements.txt
+2024-02-02 21:08:44,248 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/wandb-summary.json
+2024-02-02 21:08:44,249 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/conda-environment.yaml
+2024-02-02 21:08:47,848 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:08:47,849 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:08:48,478 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:08:48,479 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:08:51,204 DEBUG   HandlerThread:1415 [system_info.py:_save_conda():86] Saving conda packages done
+2024-02-02 21:08:51,204 DEBUG   HandlerThread:1415 [system_info.py:_save_code():89] Saving code
+2024-02-02 21:08:51,204 WARNING HandlerThread:1415 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-02-02 21:08:51,205 DEBUG   HandlerThread:1415 [system_info.py:_save_patches():127] Saving git patches
+2024-02-02 21:08:51,245 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/conda-environment.yaml
+2024-02-02 21:08:51,336 DEBUG   HandlerThread:1415 [system_info.py:_save_patches():169] Saving git patches done
+2024-02-02 21:08:51,339 INFO    HandlerThread:1415 [system_monitor.py:probe():187] Finished publishing system info
+2024-02-02 21:08:51,350 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:08:51,352 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:08:51,354 DEBUG   SenderThread:1415 [sender.py:send():334] send: files
+2024-02-02 21:08:51,355 INFO    SenderThread:1415 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-02-02 21:08:51,356 INFO    SenderThread:1415 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-02-02 21:08:51,427 DEBUG   SenderThread:1415 [sender.py:send():334] send: telemetry
+2024-02-02 21:08:51,430 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-02 21:08:51,432 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: stop_status
+2024-02-02 21:08:51,872 INFO    Thread-17 :1415 [upload_job.py:push():143] Uploaded file /tmp/tmpmz4pcs53wandb/qr3k2p1c-wandb-metadata.json
+2024-02-02 21:08:51,915 INFO    Thread-18 :1415 [upload_job.py:push():143] Uploaded file /tmp/tmpmz4pcs53wandb/wmbweuzj-diff.patch
+2024-02-02 21:08:52,067 DEBUG   SenderThread:1415 [sender.py:send():334] send: use_artifact
+2024-02-02 21:08:52,246 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/diff.patch
+2024-02-02 21:08:52,247 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/wandb-metadata.json
+2024-02-02 21:08:53,247 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/output.log
+2024-02-02 21:08:53,672 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:08:55,248 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/output.log
+2024-02-02 21:08:58,673 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:00,524 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:00,525 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:01,152 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:01,153 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:03,675 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:06,418 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:08,677 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:11,420 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:13,198 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:13,199 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:13,684 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:13,817 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:13,818 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:14,262 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/config.yaml
+2024-02-02 21:09:16,422 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:18,869 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:21,424 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:23,872 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:25,925 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:25,926 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:26,426 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:26,556 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:26,556 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:28,874 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:31,429 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:33,877 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:36,431 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:38,611 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:38,613 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:38,880 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:39,243 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:39,244 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:41,433 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:43,695 DEBUG   SystemMonitor:1415 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-02-02 21:09:43,699 DEBUG   SenderThread:1415 [sender.py:send():334] send: stats
+2024-02-02 21:09:44,700 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:46,435 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:49,702 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:51,438 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:54,705 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:09:56,439 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:09:57,404 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:57,405 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:09:58,063 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:58,064 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:09:59,706 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:01,442 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:04,710 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:06,445 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:09,712 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:10,122 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:10,123 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:10,741 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:10,741 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:11,447 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:13,701 DEBUG   SenderThread:1415 [sender.py:send():334] send: stats
+2024-02-02 21:10:15,704 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:16,450 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:20,706 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:21,452 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:22,849 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:22,851 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:23,485 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:23,486 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:25,708 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:26,454 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:30,710 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:31,457 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:35,537 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:35,538 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:35,713 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:36,163 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:36,164 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:36,459 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:40,715 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:41,461 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:43,703 DEBUG   SenderThread:1415 [sender.py:send():334] send: stats
+2024-02-02 21:10:46,463 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:46,706 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:48,214 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:48,214 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:10:48,842 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:48,843 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:10:51,466 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:51,708 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:10:56,469 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:10:56,710 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:11:00,936 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:11:00,937 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:11:01,471 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:11:01,554 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:11:01,555 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:11:01,712 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:11:06,473 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:11:06,714 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:11:11,476 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:11:11,717 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:11:13,600 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:11:13,601 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-02-02 21:11:13,706 DEBUG   SenderThread:1415 [sender.py:send():334] send: stats
+2024-02-02 21:11:14,233 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:11:14,234 ERROR   gpu       :1415 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-02-02 21:11:16,479 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-02 21:11:17,710 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:11:19,859 DEBUG   SenderThread:1415 [sender.py:send():334] send: telemetry
+2024-02-02 21:11:19,962 DEBUG   SenderThread:1415 [sender.py:send():334] send: config
+2024-02-02 21:11:19,967 DEBUG   SenderThread:1415 [sender.py:send():334] send: exit
+2024-02-02 21:11:19,967 INFO    SenderThread:1415 [sender.py:send_exit():557] handling exit code: 0
+2024-02-02 21:11:19,968 INFO    SenderThread:1415 [sender.py:send_exit():559] handling runtime: 156
+2024-02-02 21:11:19,968 INFO    SenderThread:1415 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-02 21:11:19,968 INFO    SenderThread:1415 [sender.py:send_exit():565] send defer
+2024-02-02 21:11:19,969 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:19,969 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-02 21:11:19,969 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:19,970 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-02-02 21:11:19,970 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 1
+2024-02-02 21:11:19,970 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:19,971 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-02 21:11:19,971 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:19,972 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-02-02 21:11:19,972 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 2
+2024-02-02 21:11:19,973 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:19,973 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-02 21:11:19,973 INFO    HandlerThread:1415 [system_monitor.py:finish():161] Stopping system monitor
+2024-02-02 21:11:19,977 INFO    HandlerThread:1415 [interfaces.py:finish():175] Joined cpu
+2024-02-02 21:11:19,978 DEBUG   SystemMonitor:1415 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-02-02 21:11:19,978 DEBUG   SystemMonitor:1415 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-02-02 21:11:19,979 INFO    HandlerThread:1415 [interfaces.py:finish():175] Joined disk
+2024-02-02 21:11:19,994 INFO    HandlerThread:1415 [interfaces.py:finish():175] Joined gpu
+2024-02-02 21:11:19,994 INFO    HandlerThread:1415 [interfaces.py:finish():175] Joined memory
+2024-02-02 21:11:19,994 INFO    HandlerThread:1415 [interfaces.py:finish():175] Joined network
+2024-02-02 21:11:19,995 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:19,995 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-02-02 21:11:19,995 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 3
+2024-02-02 21:11:19,995 DEBUG   SenderThread:1415 [sender.py:send():334] send: stats
+2024-02-02 21:11:19,995 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:19,996 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-02 21:11:19,997 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:19,997 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-02-02 21:11:19,997 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 4
+2024-02-02 21:11:19,997 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:19,997 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-02 21:11:19,998 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:19,998 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-02-02 21:11:19,998 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 5
+2024-02-02 21:11:19,998 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:19,998 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-02 21:11:19,999 DEBUG   SenderThread:1415 [sender.py:send():334] send: summary
+2024-02-02 21:11:19,999 INFO    SenderThread:1415 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-02 21:11:19,999 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:20,000 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-02-02 21:11:20,000 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 6
+2024-02-02 21:11:20,000 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:20,000 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-02 21:11:20,001 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:20,001 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-02-02 21:11:20,006 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: status_report
+2024-02-02 21:11:20,293 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 7
+2024-02-02 21:11:20,294 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:20,294 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-02 21:11:20,295 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:20,296 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-02-02 21:11:20,362 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/config.yaml
+2024-02-02 21:11:20,362 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/wandb-summary.json
+2024-02-02 21:11:20,363 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/code/_session_history.ipynb
+2024-02-02 21:11:20,364 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_created():275] file/dir created: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/code
+2024-02-02 21:11:20,939 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 8
+2024-02-02 21:11:20,940 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:20,940 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-02 21:11:20,941 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:20,942 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-02-02 21:11:20,942 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 9
+2024-02-02 21:11:20,943 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:20,944 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-02 21:11:20,945 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:20,945 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-02-02 21:11:20,945 INFO    SenderThread:1415 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-02-02 21:11:20,971 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-02 21:11:21,363 INFO    Thread-14 :1415 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/output.log
+2024-02-02 21:11:21,365 INFO    SenderThread:1415 [dir_watcher.py:finish():392] scan: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files
+2024-02-02 21:11:21,365 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/requirements.txt requirements.txt
+2024-02-02 21:11:21,366 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/diff.patch diff.patch
+2024-02-02 21:11:21,376 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/output.log output.log
+2024-02-02 21:11:21,377 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/wandb-summary.json wandb-summary.json
+2024-02-02 21:11:21,378 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/config.yaml config.yaml
+2024-02-02 21:11:21,398 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/wandb-metadata.json wandb-metadata.json
+2024-02-02 21:11:21,401 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/conda-environment.yaml conda-environment.yaml
+2024-02-02 21:11:21,413 INFO    SenderThread:1415 [dir_watcher.py:finish():406] scan save: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-02-02 21:11:21,430 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 10
+2024-02-02 21:11:21,431 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: poll_exit
+2024-02-02 21:11:21,432 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:21,433 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-02 21:11:21,435 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:21,435 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-02-02 21:11:21,436 INFO    SenderThread:1415 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-02 21:11:21,903 INFO    Thread-21 :1415 [upload_job.py:push():143] Uploaded file /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/wandb-summary.json
+2024-02-02 21:11:21,945 INFO    Thread-23 :1415 [upload_job.py:push():143] Uploaded file /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/conda-environment.yaml
+2024-02-02 21:11:21,955 INFO    Thread-22 :1415 [upload_job.py:push():143] Uploaded file /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/config.yaml
+2024-02-02 21:11:21,972 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-02 21:11:21,974 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: poll_exit
+2024-02-02 21:11:21,987 INFO    Thread-24 :1415 [upload_job.py:push():143] Uploaded file /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/code/_session_history.ipynb
+2024-02-02 21:11:21,995 INFO    Thread-19 :1415 [upload_job.py:push():143] Uploaded file /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/requirements.txt
+2024-02-02 21:11:22,003 INFO    Thread-20 :1415 [upload_job.py:push():143] Uploaded file /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/files/output.log
+2024-02-02 21:11:22,205 INFO    Thread-13 :1415 [sender.py:transition_state():585] send defer: 11
+2024-02-02 21:11:22,207 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:22,207 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-02 21:11:22,209 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:22,210 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-02-02 21:11:22,210 INFO    SenderThread:1415 [file_pusher.py:join():165] waiting for file pusher
+2024-02-02 21:11:22,210 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 12
+2024-02-02 21:11:22,211 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:22,212 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-02 21:11:22,215 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:22,215 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-02-02 21:11:22,411 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 13
+2024-02-02 21:11:22,413 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:22,413 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-02 21:11:22,415 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:22,415 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-02-02 21:11:22,416 INFO    SenderThread:1415 [sender.py:transition_state():585] send defer: 14
+2024-02-02 21:11:22,418 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: defer
+2024-02-02 21:11:22,419 DEBUG   SenderThread:1415 [sender.py:send():334] send: final
+2024-02-02 21:11:22,419 INFO    HandlerThread:1415 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-02 21:11:22,420 DEBUG   SenderThread:1415 [sender.py:send():334] send: footer
+2024-02-02 21:11:22,422 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: defer
+2024-02-02 21:11:22,422 INFO    SenderThread:1415 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-02-02 21:11:22,425 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-02 21:11:22,427 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: poll_exit
+2024-02-02 21:11:22,430 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: server_info
+2024-02-02 21:11:22,431 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-02 21:11:22,431 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-02 21:11:22,433 DEBUG   SenderThread:1415 [sender.py:send_request():361] send_request: server_info
+2024-02-02 21:11:22,763 DEBUG   HandlerThread:1415 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-02 21:11:22,763 INFO    HandlerThread:1415 [handler.py:finish():841] shutting down handler
+2024-02-02 21:11:23,433 INFO    WriterThread:1415 [datastore.py:close():299] close: /home/korin/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240202_210842-uhhzalju/run-uhhzalju.wandb
+2024-02-02 21:11:23,760 INFO    SenderThread:1415 [sender.py:finish():1491] shutting down sender
+2024-02-02 21:11:23,761 INFO    SenderThread:1415 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-02 21:11:23,761 INFO    SenderThread:1415 [file_pusher.py:join():165] waiting for file pusher

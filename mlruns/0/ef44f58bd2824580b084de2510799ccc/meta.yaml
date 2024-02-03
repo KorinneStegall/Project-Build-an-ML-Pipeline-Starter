@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ef44f58bd2824580b084de2510799ccc/artifacts
+end_time: 1706888381550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef44f58bd2824580b084de2510799ccc
+run_name: unleashed-pig-115
+run_uuid: ef44f58bd2824580b084de2510799ccc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706888113259
+status: 3
+tags: []
+user_id: korin

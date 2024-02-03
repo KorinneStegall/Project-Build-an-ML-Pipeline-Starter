@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6e2645af8b25476d82b84a99966fc303/artifacts
+end_time: 1706929646044
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e2645af8b25476d82b84a99966fc303
+run_name: painted-snipe-850
+run_uuid: 6e2645af8b25476d82b84a99966fc303
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706929626248
+status: 3
+tags: []
+user_id: korin
