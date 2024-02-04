@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/415e36213b3c464fac3765a5f5a9a4b1/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 415e36213b3c464fac3765a5f5a9a4b1
+run_name: luminous-gull-543
+run_uuid: 415e36213b3c464fac3765a5f5a9a4b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707015372803
+status: 1
+tags: []
+user_id: korin

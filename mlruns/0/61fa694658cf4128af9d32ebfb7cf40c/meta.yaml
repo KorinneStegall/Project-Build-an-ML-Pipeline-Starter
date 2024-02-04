@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/61fa694658cf4128af9d32ebfb7cf40c/artifacts
+end_time: 1707015385218
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61fa694658cf4128af9d32ebfb7cf40c
+run_name: mysterious-mink-179
+run_uuid: 61fa694658cf4128af9d32ebfb7cf40c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707015368351
+status: 4
+tags: []
+user_id: korin
