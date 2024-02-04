@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/871555d839fd418d8c864bcc04086265/artifacts
+end_time: 1707015710011
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 871555d839fd418d8c864bcc04086265
+run_name: abrasive-horse-541
+run_uuid: 871555d839fd418d8c864bcc04086265
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707015699381
+status: 3
+tags: []
+user_id: korin

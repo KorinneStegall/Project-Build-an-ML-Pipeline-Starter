@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4fccf42441b041c8971776fb3eb692cd/artifacts
+end_time: 1707016028761
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4fccf42441b041c8971776fb3eb692cd
+run_name: abrasive-eel-631
+run_uuid: 4fccf42441b041c8971776fb3eb692cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707015755713
+status: 3
+tags: []
+user_id: korin
