@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/86332a5ca32841198a8ac03224c145d7/artifacts
+end_time: 1707015577920
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86332a5ca32841198a8ac03224c145d7
+run_name: nimble-yak-315
+run_uuid: 86332a5ca32841198a8ac03224c145d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707015555281
+status: 3
+tags: []
+user_id: korin
