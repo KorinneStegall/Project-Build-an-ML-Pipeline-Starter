@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/768d6ec77286456998310b50c8c3464f/artifacts
+end_time: 1707014879724
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 768d6ec77286456998310b50c8c3464f
+run_name: magnificent-fish-28
+run_uuid: 768d6ec77286456998310b50c8c3464f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707014858460
+status: 3
+tags: []
+user_id: korin

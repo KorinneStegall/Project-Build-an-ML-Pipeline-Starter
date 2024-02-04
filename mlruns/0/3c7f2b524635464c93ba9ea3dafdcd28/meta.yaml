@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3c7f2b524635464c93ba9ea3dafdcd28/artifacts
+end_time: 1707014845699
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c7f2b524635464c93ba9ea3dafdcd28
+run_name: serious-rook-259
+run_uuid: 3c7f2b524635464c93ba9ea3dafdcd28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707014826176
+status: 3
+tags: []
+user_id: korin
