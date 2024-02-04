@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eb2e5ed6bdef43fd9e16129dddf99906/artifacts
+end_time: 1707014169913
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb2e5ed6bdef43fd9e16129dddf99906
+run_name: glamorous-tern-633
+run_uuid: eb2e5ed6bdef43fd9e16129dddf99906
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707014090413
+status: 3
+tags: []
+user_id: korin
