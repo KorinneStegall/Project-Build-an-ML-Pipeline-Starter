@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/12a57dfc7db04e12a96f6f98adfc74e2/artifacts
+end_time: 1707013455290
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12a57dfc7db04e12a96f6f98adfc74e2
+run_name: trusting-smelt-927
+run_uuid: 12a57dfc7db04e12a96f6f98adfc74e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707013028854
+status: 3
+tags: []
+user_id: korin

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5ad94aef2bf7442aae8e63630fd619c9/artifacts
+end_time: 1707013455127
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ad94aef2bf7442aae8e63630fd619c9
+run_name: suave-pug-874
+run_uuid: 5ad94aef2bf7442aae8e63630fd619c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707013312554
+status: 3
+tags: []
+user_id: korin

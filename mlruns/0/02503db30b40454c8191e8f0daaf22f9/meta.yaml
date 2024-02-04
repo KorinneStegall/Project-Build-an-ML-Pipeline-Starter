@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/02503db30b40454c8191e8f0daaf22f9/artifacts
+end_time: 1707013312396
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 02503db30b40454c8191e8f0daaf22f9
+run_name: glamorous-shrike-996
+run_uuid: 02503db30b40454c8191e8f0daaf22f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707013231928
+status: 3
+tags: []
+user_id: korin

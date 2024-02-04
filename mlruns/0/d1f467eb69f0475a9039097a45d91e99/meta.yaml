@@ -1,0 +1,15 @@
+artifact_uri: file:///home/korin/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d1f467eb69f0475a9039097a45d91e99/artifacts
+end_time: 1707013231790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1f467eb69f0475a9039097a45d91e99
+run_name: nimble-squirrel-985
+run_uuid: d1f467eb69f0475a9039097a45d91e99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707013185307
+status: 3
+tags: []
+user_id: korin
